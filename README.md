@@ -8,7 +8,7 @@ For all below steps, you will need to install [Python3](https://www.python.org/d
 
 1. Download Anaconda (miniconda version) – a package and environment manager for Python
 
-2. Clone this repo somewhere on your computer. This will be your working directory.
+2. Clone this repo somewhere on your computer (or just click the code > download zip button). This will be your working directory.
 
 3. Open Anaconda Prompt. Run `cd (path to working directory)`
 
