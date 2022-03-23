@@ -2,7 +2,7 @@ This tool provides an easy-to-use command line interface for producing shapefile
 
 ## First time setup and installation
 
-For all below step, you will need to install [Python3](https://www.python.org/downloads/). 
+For all below steps, you will need to install [Python3](https://www.python.org/downloads/). 
 
 ### Install with Anaconda (highly reccomended)
 
@@ -14,7 +14,7 @@ For all below step, you will need to install [Python3](https://www.python.org/do
 
 4. Run `conda env create –f environment.yml` (if you want to change the environment name, open the environment.yml file in a text editor and change name in the first line). 
 
-### installing using pip
+### installing using pip (not working right now)
 
 1. Install virtual environments. python3 -m pip install --user virtualenv
 2. cd to your working directory (the folder you downloaded or cloned from this repo)
