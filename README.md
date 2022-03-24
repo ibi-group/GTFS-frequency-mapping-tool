@@ -6,7 +6,7 @@ For all below steps, you will need to install [Python3](https://www.python.org/d
 
 ### Install with Anaconda (highly reccomended)
 
-1. Download Anaconda (miniconda version) – a package and environment manager for Python
+1. Download Anaconda [(miniconda version)](https://docs.conda.io/en/latest/miniconda.html) – a package and environment manager for Python
 
 2. Clone this repo somewhere on your computer (or just click the code > download zip button). This will be your working directory.
 
@@ -16,7 +16,7 @@ For all below steps, you will need to install [Python3](https://www.python.org/d
 
 ### installing using pip (not working right now)
 
-1. Install virtual environments. python3 -m pip install --user virtualenv
+1. Install virtual environments. `python3 -m pip install --user virtualenv`
 2. cd to your working directory (the folder you downloaded or cloned from this repo)
 3. Create a virtual environment. python3 -m venv env
 4. Activate the environment. source env/bin/activate
