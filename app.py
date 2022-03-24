@@ -172,7 +172,8 @@ print(combined.head(4))
 #Saving results in geoJSON / shapefile
 print('Saving results...')
 
-gtfs.save_gdf(combined, file_name, shapefile = True, geojson = False)
+#gtfs.save_gdf(combined, file_name, shapefile = True, geojson = False)
+combined.to_file(file_name + '.shp')
 #Save a basic map for reference / error checking
 ax = combined.plot(figsize=(20, 20), column = 'hourly_frequency', cmap = 'OrRd',
             scheme = 'NaturalBreaks', k = 5, legend = True, alpha = .7, markersize = 2)
