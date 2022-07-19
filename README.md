@@ -61,3 +61,21 @@ The attributes below appear in the shapefile.
 - **trips_in_p:** Total bus trips in the specified time period
 - **headway_mins:** Scheduled-based headway. Minutes between each bus, on average
 
+## Feed Comparison
+The compare.py file allows users to compare two similar GTFS feeds processed using the above steps to identify differences in frequency. 
+
+### inputs
+
+Two zipped shapefiles produced using the app.py file described above. 
+
+### usage
+
+Run `python compare.py <file 1 name> <file 2 name>` from the Anaconda prompt. File names should **not** include the .zip extension. 
+
+### output
+
+A folder called "feed_comparison" containing the loose files making up an ESRI shapefile with the feed comparison results. The "seg_type" attribute describes whether the segment is old, new, or the same in both feeds. Segments that are not the same will have null values for either the old or new attribute. 
+
+
+
+
